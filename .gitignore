@@ -2,6 +2,7 @@
 /**/node_modules
 /**/dist
 /**/view/**
+/**/lib/**
 /**/coverage
 /**/.eslintcache
 /**/package-lock.json
