@@ -5,7 +5,8 @@ const config: Config.InitialOptions = {
     "verbose": true,
     "testMatch": ['**/test/*.(test|spec).[jt]s'],
     "testEnvironment": "jsdom",
-    "coverageReporters": ["text", "text-summary"]
+    "collectCoverage": true,
+    "coverageDirectory": "coverage"
 };
 
 

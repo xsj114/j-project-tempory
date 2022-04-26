@@ -2,6 +2,7 @@ import isArguments from './arguments'
 import isArray from './array'
 import isAsyncFunction from './async-function'
 import isBoolean from './boolean'
+import isDate from './date'
 import isError from './error'
 import isFormdata from './formdata'
 import isFunction from './function'
@@ -31,6 +32,7 @@ const is: Is = {
     array: isArray,
     asyncFunction: isAsyncFunction,
     boolean: isBoolean,
+    date: isDate,
     error: isError,
     formdata: isFormdata,
     function: isFunction,

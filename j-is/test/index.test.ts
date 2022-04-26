@@ -31,6 +31,11 @@ describe( 'is', () => {
         expect( is.boolean( 0 ) ).toBe( false )
     })
 
+    it('date', () => {
+        expect( is.date( new Date() ) ).toBe( true )
+        expect( is.date( 1 ) ).toBe( false )
+    })
+
     it('error', () => {
         expect( is.error( new Error() ) ).toBe( true )
         expect( is.error( new TypeError() ) ).toBe( true )
@@ -88,7 +93,6 @@ describe( 'is', () => {
         expect( is.promise( new Promise( ()=>{} ) ) ).toBe( true )
         expect( is.promise( null ) ).toBe( false )
         expect( is.promise( Promise.resolve() ) ).toBe( true )
-        expect( is.promise( Promise.reject() ) ).toBe( true )
     }) 
 
     it('regexp', () => {

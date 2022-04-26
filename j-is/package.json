@@ -1,24 +1,15 @@
 {
-  "name": "j-ts-is",
+  "name": "j-is",
   "version": "1.14.0",
   "description": "Do checking...",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc --declaration",
     "test": "jest",
-    "test:watch": "jest --watch",
-    "test:cover": "jest --coverage=true"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/xsj114/ts-is.git"
+    "test:watch": "jest --watch"
   },
   "author": "xsj114",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/xsj114/ts-is/issues"
-  },
-  "homepage": "https://github.com/xsj114/ts-is#readme",
   "devDependencies": {
     "@babel/core": "^7.13.8",
     "@babel/preset-env": "^7.13.9",
