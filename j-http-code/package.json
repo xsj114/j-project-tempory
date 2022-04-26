@@ -1,0 +1,22 @@
+{
+  "name": "j-http-code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_OPTIONS=--experimental-vm-modules npx jest",
+    "lint": "eslint --cache --fix ./"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "j-ts-is": "^1.14.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.14.0",
+    "eslint-config-google": "^0.14.0",
+    "jest": "^27.5.1"
+  }
+}

@@ -7,7 +7,7 @@
     "build": "tsc --declaration",
     "test": "jest",
     "test:watch": "jest --watch",
-    "test:cover": "jest --coverage"
+    "test:cover": "jest --coverage=true"
   },
   "repository": {
     "type": "git",
