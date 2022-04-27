@@ -22,5 +22,6 @@ module.exports = {
         'object-curly-spacing': [ 'error', 'always' ],
         'max-len': [ 'error', { 'code': 100 } ],
         'computed-property-spacing': [ 'error', 'always' ],
+        'require-jsdoc': [ 'off' ],
     },
 };
