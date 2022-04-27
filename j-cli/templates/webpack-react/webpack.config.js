@@ -56,6 +56,13 @@ module.exports = ( env ) => {
         },
         resolve: {
             extensions: [ '.js', '.jsx' ],
+            alias: {
+                '@utils': path.resolve( __dirname, 'src/utils/' ),
+                '@components': path.resolve( __dirname, 'src/components/' ),
+                '@assets': path.resolve( __dirname, 'src/assets/' ),
+            },
+            mainFiles: [ 'index' ],
+            modules: [ 'node_modules' ],
         },
         plugins,
         module: {

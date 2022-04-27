@@ -1,4 +1,4 @@
-import axios from '../utils/baseHttp';
+import axios from '@utils/baseHttp';
 
 // export const test = async () => {
 //     const res = await axios( {
