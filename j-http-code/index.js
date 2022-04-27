@@ -1,4 +1,4 @@
-import is from 'j-ts-is';
+import is from '@j-xushijie/j-is';
 
 const code = {
     '100': {

@@ -11,12 +11,12 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "j-ts-is": "^1.14.0"
-  },
   "devDependencies": {
     "eslint": "^8.14.0",
     "eslint-config-google": "^0.14.0",
     "jest": "^27.5.1"
+  },
+  "dependencies": {
+    "@j-xushijie/j-is": "^1.1.0"
   }
 }

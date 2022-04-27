@@ -1,9 +1,9 @@
-# ts-is
+# j-is
 
 ## Install
 
 ```
-npm i j-ts-is --save
+npm i @j-xushijie/j-is --save
 ```
 
 ## Methods
