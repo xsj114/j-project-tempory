@@ -1,6 +1,6 @@
 {
   "name": "@j-xushijie/j-http-code",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -23,5 +23,6 @@
   },
   "dependencies": {
     "@j-xushijie/j-is": "^1.1.0"
-  }
+  },
+  "files": ["dist"]
 }

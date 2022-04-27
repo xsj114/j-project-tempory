@@ -36,11 +36,11 @@ npm i @j-xushijie/j-is --save
 ## Usage
 
 ```
-import is from 'j-ts-is'
+import is from '@j-xushijie/j-is'
 is.array( [] );
 
 or
 
-const is = require('j-ts-is')
+const is = require('@j-xushijie/j-is')
 is.array( [] );
 ```
