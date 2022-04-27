@@ -1,6 +1,6 @@
 {
-  "name": "j-ui-library",
-  "version": "0.1.62",
+  "name": "@j-xushijie/j-ui-library",
+  "version": "1.0.0",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",

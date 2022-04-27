@@ -1,20 +1,25 @@
 {
-  "name": "j-http-code",
-  "version": "1.0.0",
+  "name": "@j-xushijie/j-http-code",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "NODE_OPTIONS=--experimental-vm-modules npx jest",
+    "build": "webpack",
+    "test": "jest",
     "lint": "eslint --cache --fix ./"
   },
-  "type": "module",
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "babel-loader": "^8.2.5",
     "eslint": "^8.14.0",
     "eslint-config-google": "^0.14.0",
-    "jest": "^27.5.1"
+    "jest": "^27.5.1",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2"
   },
   "dependencies": {
     "@j-xushijie/j-is": "^1.1.0"

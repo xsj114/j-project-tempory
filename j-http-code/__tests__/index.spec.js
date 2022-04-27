@@ -1,4 +1,4 @@
-import HttpCode from '../index.js';
+const HttpCode = require( '../index.js' );
 
 let c = null;
 
