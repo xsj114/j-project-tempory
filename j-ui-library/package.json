@@ -6,6 +6,7 @@
     "scripts": {
         "serve": "webpack serve",
         "build": "webpack --env prod",
+        "build:lib": "webpack --config ./webpack.lib.config.js",
         "webpack:analyse": "webpack --profile --json > stats.json",
         "lint": "eslint --cache --fix ./",
         "test": "jest"
