@@ -23,6 +23,7 @@ module.exports = () => {
             clean: true,
             publicPath: '/',
             library: {
+                name: 'j-ui-library',
                 type: 'umd',
             },
         },

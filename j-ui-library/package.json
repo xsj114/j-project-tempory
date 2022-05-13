@@ -1,6 +1,6 @@
 {
-    "name": "webpack-vue",
-    "version": "1.0.0",
+    "name": "j-ui-library",
+    "version": "2.0.0",
     "description": "",
     "main": "index.js",
     "scripts": {
