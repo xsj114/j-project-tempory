@@ -1,8 +1,8 @@
 export const BAR_MAP = {
     vertical: {
-        key: 'vertical'
+        key: 'vertical',
     },
     horizontal: {
-        key: 'horizontal'
-    }
-}
+        key: 'horizontal',
+    },
+};

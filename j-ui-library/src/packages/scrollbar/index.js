@@ -1,4 +1,4 @@
-import JScrollbar from './src/main'
+import JScrollbar from './src/main';
 
 
-export default JScrollbar
+export default JScrollbar;

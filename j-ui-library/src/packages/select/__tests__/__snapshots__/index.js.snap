@@ -613,829 +613,1119 @@ Object {
 `;
 
 exports[`JSelect JOption itemSelected multiple choice 1`] = `
-<div class="j_select">
-  <div class="j_select_tags" style="max-width: -30px;"></div>
-  <div class="j_input"><input type="text" readonly="readonly" placeholder="" class="j_input_inner j_input_inner_suffix"><span class="j_input_icon j_input_suffix"><i class="j-icon_down_arrow j_input_icon_gesture j_select_caret"></i></span></div>
-  <div class="j_option_menu" style="display: none;">
-    <div class="j_scrollbar">
-      <div class="j_scrollbar_wrap j_scrollbar_hidden_default j_option_menu_list_wrap">
-        <ul class="j_option_menu_list">
-          <li class="j_option_menu_list_item j_option_menu_list_item_selected">1</li>
-          <li class="j_option_menu_list_item j_option_menu_list_item_selected">2</li>
-          <li class="j_option_menu_list_item">3</li>
-          <p class="j_select_empty">无数据</p>
-        </ul>
-      </div>
-      <div class="j_scrollbar_bar j_scrollbar_bar_horizontal">
-        <div class="j_scroll_bar_thumb"></div>
-      </div>
-      <div class="j_scrollbar_bar j_scrollbar_bar_vertical">
-        <div class="j_scroll_bar_thumb"></div>
-      </div>
-    </div>
-  </div>
-</div>
+VueWrapper {
+  "_emitted": Object {},
+  "_emittedByOrder": Array [],
+  "isFunctionalComponent": undefined,
+}
 `;
 
 exports[`JSelect JOption itemSelected single choice 1`] = `
-<div class="j_select">
-  <div class="j_input"><input type="text" readonly="readonly" placeholder="请选择" class="j_input_inner j_input_inner_suffix"><span class="j_input_icon j_input_suffix"><i class="j-icon_down_arrow j_input_icon_gesture j_select_caret"></i></span></div>
-  <div class="j_option_menu" style="display: none;">
-    <div class="j_scrollbar">
-      <div class="j_scrollbar_wrap j_scrollbar_hidden_default j_option_menu_list_wrap">
-        <ul class="j_option_menu_list">
-          <li class="j_option_menu_list_item j_option_menu_list_item_selected">1</li>
-          <li class="j_option_menu_list_item">2</li>
-          <p class="j_select_empty">无数据</p>
-        </ul>
-      </div>
-      <div class="j_scrollbar_bar j_scrollbar_bar_horizontal">
-        <div class="j_scroll_bar_thumb"></div>
-      </div>
-      <div class="j_scrollbar_bar j_scrollbar_bar_vertical">
-        <div class="j_scroll_bar_thumb"></div>
-      </div>
-    </div>
-  </div>
-</div>
+VueWrapper {
+  "_emitted": Object {},
+  "_emittedByOrder": Array [],
+  "isFunctionalComponent": undefined,
+}
 `;
 
 exports[`JSelect JOption label no pass label 1`] = `
-<div class="j_select">
-  <div class="j_input"><input type="text" readonly="readonly" placeholder="请选择" class="j_input_inner j_input_inner_suffix"><span class="j_input_icon j_input_suffix"><i class="j-icon_down_arrow j_input_icon_gesture j_select_caret"></i></span></div>
-  <div class="j_option_menu" style="display: none;">
-    <div class="j_scrollbar">
-      <div class="j_scrollbar_wrap j_scrollbar_hidden_default j_option_menu_list_wrap">
-        <ul class="j_option_menu_list">
-          <li class="j_option_menu_list_item">1</li>
-          <p class="j_select_empty">无数据</p>
-        </ul>
-      </div>
-      <div class="j_scrollbar_bar j_scrollbar_bar_horizontal">
-        <div class="j_scroll_bar_thumb"></div>
-      </div>
-      <div class="j_scrollbar_bar j_scrollbar_bar_vertical">
-        <div class="j_scroll_bar_thumb"></div>
-      </div>
-    </div>
-  </div>
-</div>
+VueWrapper {
+  "_emitted": Object {},
+  "_emittedByOrder": Array [],
+  "isFunctionalComponent": undefined,
+}
 `;
 
 exports[`JSelect JOption label pass label 1`] = `
-<div class="j_select">
-  <div class="j_input"><input type="text" readonly="readonly" placeholder="请选择" class="j_input_inner j_input_inner_suffix"><span class="j_input_icon j_input_suffix"><i class="j-icon_down_arrow j_input_icon_gesture j_select_caret"></i></span></div>
-  <div class="j_option_menu" style="display: none;">
-    <div class="j_scrollbar">
-      <div class="j_scrollbar_wrap j_scrollbar_hidden_default j_option_menu_list_wrap">
-        <ul class="j_option_menu_list">
-          <li class="j_option_menu_list_item">黄金</li>
-          <p class="j_select_empty">无数据</p>
-        </ul>
-      </div>
-      <div class="j_scrollbar_bar j_scrollbar_bar_horizontal">
-        <div class="j_scroll_bar_thumb"></div>
-      </div>
-      <div class="j_scrollbar_bar j_scrollbar_bar_vertical">
-        <div class="j_scroll_bar_thumb"></div>
-      </div>
-    </div>
-  </div>
-</div>
+VueWrapper {
+  "_emitted": Object {},
+  "_emittedByOrder": Array [],
+  "isFunctionalComponent": undefined,
+}
 `;
 
 exports[`JSelect JOption mouseenter event mouseenter event 1`] = `
-<div class="j_select">
-  <div class="j_input"><input type="text" readonly="readonly" placeholder="请选择" class="j_input_inner j_input_inner_suffix"><span class="j_input_icon j_input_suffix"><i class="j-icon_down_arrow j_input_icon_gesture j_select_caret"></i></span></div>
-  <div class="j_option_menu" style="display: none;">
-    <div class="j_scrollbar">
-      <div class="j_scrollbar_wrap j_scrollbar_hidden_default j_option_menu_list_wrap">
-        <ul class="j_option_menu_list">
-          <li class="j_option_menu_list_item j_option_menu_list_item_selected">1</li>
-          <li class="j_option_menu_list_item j_option_menu_list_item_hover">2</li>
-        </ul>
-      </div>
-      <div class="j_scrollbar_bar j_scrollbar_bar_horizontal">
-        <div class="j_scroll_bar_thumb"></div>
-      </div>
-      <div class="j_scrollbar_bar j_scrollbar_bar_vertical">
-        <div class="j_scroll_bar_thumb"></div>
-      </div>
-    </div>
-  </div>
-</div>
+VueWrapper {
+  "_emitted": Object {},
+  "_emittedByOrder": Array [],
+  "isFunctionalComponent": undefined,
+}
 `;
 
 exports[`JSelect JOption queryChange queryChange 1`] = `
-<div class="j_select">
-  <div class="j_input"><input type="text" readonly="readonly" placeholder="请选择" class="j_input_inner j_input_inner_suffix"><span class="j_input_icon j_input_suffix"><i class="j-icon_down_arrow j_input_icon_gesture j_select_caret"></i></span></div>
-  <div class="j_option_menu" style="display: none;">
-    <div class="j_scrollbar">
-      <div class="j_scrollbar_wrap j_scrollbar_hidden_default j_option_menu_list_wrap">
-        <ul class="j_option_menu_list">
-          <li class="j_option_menu_list_item j_option_menu_list_item_selected">1</li>
-          <li class="j_option_menu_list_item">2</li>
-          <li class="j_option_menu_list_item">3</li>
-          <p class="j_select_empty">无数据</p>
-        </ul>
-      </div>
-      <div class="j_scrollbar_bar j_scrollbar_bar_horizontal">
-        <div class="j_scroll_bar_thumb"></div>
-      </div>
-      <div class="j_scrollbar_bar j_scrollbar_bar_vertical">
-        <div class="j_scroll_bar_thumb"></div>
-      </div>
-    </div>
-  </div>
-</div>
+VueWrapper {
+  "_emitted": Object {},
+  "_emittedByOrder": Array [],
+  "isFunctionalComponent": undefined,
+}
 `;
 
-exports[`JSelect JOption size large size 1`] = `<li class="j_option_menu_list_item j_option_menu_list_item_large">1</li>`;
+exports[`JSelect JOption size large size 1`] = `
+VueWrapper {
+  "_emitted": Object {},
+  "_emittedByOrder": Array [],
+  "isFunctionalComponent": undefined,
+  "selector": Object {
+    "_Ctor": Object {
+      "1": [Function],
+      "105": [Function],
+      "187": [Function],
+      "239": [Function],
+      "320": [Function],
+      "332": [Function],
+      "344": [Function],
+      "356": [Function],
+      "53": [Function],
+    },
+    "beforeDestroy": [Function],
+    "computed": Object {
+      "currentLabel": [Function],
+      "itemSelected": [Function],
+      "optionSize": [Function],
+    },
+    "created": [Function],
+    "data": [Function],
+    "inject": Object {
+      "select": Object {
+        "from": "select",
+      },
+    },
+    "methods": Object {
+      "handleOptionClick": [Function],
+      "hoverItem": [Function],
+      "queryChange": [Function],
+    },
+    "mixins": Array [
+      Object {
+        "methods": Object {
+          "broadcast": [Function],
+          "dispatch": [Function],
+        },
+      },
+    ],
+    "name": "JOption",
+    "props": Object {
+      "created": Object {
+        "type": [Function],
+      },
+      "label": Object {
+        "type": Array [
+          [Function],
+          [Function],
+        ],
+      },
+      "size": Object {
+        "type": [Function],
+      },
+      "value": Object {
+        "required": true,
+      },
+    },
+    "render": [Function],
+  },
+}
+`;
 
-exports[`JSelect JOption size small size 1`] = `<li class="j_option_menu_list_item j_option_menu_list_item_small">1</li>`;
+exports[`JSelect JOption size small size 1`] = `
+VueWrapper {
+  "_emitted": Object {},
+  "_emittedByOrder": Array [],
+  "isFunctionalComponent": undefined,
+  "selector": Object {
+    "_Ctor": Object {
+      "1": [Function],
+      "105": [Function],
+      "187": [Function],
+      "239": [Function],
+      "320": [Function],
+      "332": [Function],
+      "344": [Function],
+      "53": [Function],
+    },
+    "beforeDestroy": [Function],
+    "computed": Object {
+      "currentLabel": [Function],
+      "itemSelected": [Function],
+      "optionSize": [Function],
+    },
+    "created": [Function],
+    "data": [Function],
+    "inject": Object {
+      "select": Object {
+        "from": "select",
+      },
+    },
+    "methods": Object {
+      "handleOptionClick": [Function],
+      "hoverItem": [Function],
+      "queryChange": [Function],
+    },
+    "mixins": Array [
+      Object {
+        "methods": Object {
+          "broadcast": [Function],
+          "dispatch": [Function],
+        },
+      },
+    ],
+    "name": "JOption",
+    "props": Object {
+      "created": Object {
+        "type": [Function],
+      },
+      "label": Object {
+        "type": Array [
+          [Function],
+          [Function],
+        ],
+      },
+      "size": Object {
+        "type": [Function],
+      },
+      "value": Object {
+        "required": true,
+      },
+    },
+    "render": [Function],
+  },
+}
+`;
 
 exports[`JSelect allowCreate no pass allowCreate 1`] = `
-<div class="j_select">
-  <div class="j_input is_focus"><input type="text" placeholder="1" class="j_input_inner j_input_inner_suffix"><span class="j_input_icon j_input_suffix"><i class="j-icon_down_arrow j_select_reverse j_input_icon_gesture j_select_caret"></i></span></div>
-</div>
+VueWrapper {
+  "_emitted": Object {
+    "focus": Array [
+      Array [
+        FocusEvent {
+          "isTrusted": true,
+        },
+      ],
+    ],
+    "visible-change": Array [
+      Array [
+        true,
+      ],
+    ],
+  },
+  "_emittedByOrder": Array [
+    Object {
+      "args": Array [
+        FocusEvent {
+          "isTrusted": true,
+        },
+      ],
+      "name": "focus",
+    },
+    Object {
+      "args": Array [
+        true,
+      ],
+      "name": "visible-change",
+    },
+  ],
+  "isFunctionalComponent": undefined,
+}
 `;
 
 exports[`JSelect allowCreate pass allowCreate 1`] = `
-<div class="j_select">
-  <div class="j_input is_focus"><input type="text" placeholder="1" class="j_input_inner j_input_inner_suffix"><span class="j_input_icon j_input_suffix"><i class="j-icon_down_arrow j_select_reverse j_input_icon_gesture j_select_caret"></i></span></div>
-</div>
+VueWrapper {
+  "_emitted": Object {
+    "focus": Array [
+      Array [
+        FocusEvent {
+          "isTrusted": true,
+        },
+      ],
+    ],
+    "visible-change": Array [
+      Array [
+        true,
+      ],
+    ],
+  },
+  "_emittedByOrder": Array [
+    Object {
+      "args": Array [
+        FocusEvent {
+          "isTrusted": true,
+        },
+      ],
+      "name": "focus",
+    },
+    Object {
+      "args": Array [
+        true,
+      ],
+      "name": "visible-change",
+    },
+  ],
+  "isFunctionalComponent": undefined,
+}
 `;
 
 exports[`JSelect emptyText empty text element not show 1`] = `
-<div class="j_select">
-  <div class="j_input is_focus"><input type="text" placeholder="1" class="j_input_inner j_input_inner_suffix"><span class="j_input_icon j_input_suffix"><i class="j-icon_down_arrow j_select_reverse j_input_icon_gesture j_select_caret"></i></span></div>
-</div>
+VueWrapper {
+  "_emitted": Object {
+    "visible-change": Array [
+      Array [
+        true,
+      ],
+    ],
+  },
+  "_emittedByOrder": Array [
+    Object {
+      "args": Array [
+        true,
+      ],
+      "name": "visible-change",
+    },
+  ],
+  "isFunctionalComponent": undefined,
+}
 `;
 
 exports[`JSelect emptyText no match data 1`] = `
-<div class="j_select">
-  <div class="j_input is_focus"><input type="text" placeholder="1" class="j_input_inner j_input_inner_suffix"><span class="j_input_icon j_input_suffix"><i class="j-icon_down_arrow j_select_reverse j_input_icon_gesture j_select_caret"></i></span></div>
-</div>
+VueWrapper {
+  "_emitted": Object {
+    "focus": Array [
+      Array [
+        FocusEvent {
+          "isTrusted": true,
+        },
+      ],
+    ],
+    "visible-change": Array [
+      Array [
+        true,
+      ],
+    ],
+  },
+  "_emittedByOrder": Array [
+    Object {
+      "args": Array [
+        FocusEvent {
+          "isTrusted": true,
+        },
+      ],
+      "name": "focus",
+    },
+    Object {
+      "args": Array [
+        true,
+      ],
+      "name": "visible-change",
+    },
+  ],
+  "isFunctionalComponent": undefined,
+}
 `;
 
 exports[`JSelect emptyText no option 1`] = `
-<div class="j_select">
-  <div class="j_input is_focus"><input type="text" readonly="readonly" placeholder="请选择" class="j_input_inner j_input_inner_suffix"><span class="j_input_icon j_input_suffix"><i class="j-icon_down_arrow j_select_reverse j_input_icon_gesture j_select_caret"></i></span></div>
-</div>
+VueWrapper {
+  "_emitted": Object {
+    "visible-change": Array [
+      Array [
+        true,
+      ],
+    ],
+  },
+  "_emittedByOrder": Array [
+    Object {
+      "args": Array [
+        true,
+      ],
+      "name": "visible-change",
+    },
+  ],
+  "isFunctionalComponent": undefined,
+}
 `;
 
 exports[`JSelect emptyText options length no equal 1 1`] = `
-<div class="j_select">
-  <div class="j_input is_focus"><input type="text" readonly="readonly" placeholder="请选择" class="j_input_inner j_input_inner_suffix"><span class="j_input_icon j_input_suffix"><i class="j-icon_down_arrow j_select_reverse j_input_icon_gesture j_select_caret"></i></span></div>
-</div>
+VueWrapper {
+  "_emitted": Object {
+    "focus": Array [
+      Array [
+        FocusEvent {
+          "isTrusted": true,
+        },
+      ],
+    ],
+    "visible-change": Array [
+      Array [
+        true,
+      ],
+    ],
+  },
+  "_emittedByOrder": Array [
+    Object {
+      "args": Array [
+        FocusEvent {
+          "isTrusted": true,
+        },
+      ],
+      "name": "focus",
+    },
+    Object {
+      "args": Array [
+        true,
+      ],
+      "name": "visible-change",
+    },
+  ],
+  "isFunctionalComponent": undefined,
+}
 `;
 
 exports[`JSelect extra test hoverIndex 1`] = `
-<div class="j_select">
-  <div class="j_select_tags" style="max-width: -30px;"><input class="j_select_tags_input" style="max-width: -30px; width: 0.01%;"></div>
-  <div class="j_input is_focus"><input type="text" readonly="readonly" placeholder="请选择" class="j_input_inner j_input_inner_suffix" style="height: 0px;"><span class="j_input_icon j_input_suffix"><i class="j-icon_down_arrow j_select_reverse j_input_icon_gesture j_select_caret"></i></span></div>
-</div>
+VueWrapper {
+  "_emitted": Object {},
+  "_emittedByOrder": Array [],
+  "isFunctionalComponent": undefined,
+}
 `;
 
 exports[`JSelect extra test optionMenu width 1`] = `
-<div class="j_select">
-  <div class="j_input"><input type="text" readonly="readonly" placeholder="请选择" class="j_input_inner j_input_inner_suffix"><span class="j_input_icon j_input_suffix"><i class="j-icon_down_arrow j_input_icon_gesture j_select_caret"></i></span></div>
-  <div class="j_option_menu" style="display: none; width: 0px;">
-    <div class="j_scrollbar">
-      <div class="j_scrollbar_wrap j_scrollbar_hidden_default j_option_menu_list_wrap">
-        <ul class="j_option_menu_list">
-          <p class="j_select_empty">无数据</p>
-        </ul>
-      </div>
-      <div class="j_scrollbar_bar j_scrollbar_bar_horizontal">
-        <div class="j_scroll_bar_thumb"></div>
-      </div>
-      <div class="j_scrollbar_bar j_scrollbar_bar_vertical">
-        <div class="j_scroll_bar_thumb"></div>
-      </div>
-    </div>
-  </div>
-</div>
+VueWrapper {
+  "_emitted": Object {},
+  "_emittedByOrder": Array [],
+  "isFunctionalComponent": undefined,
+}
 `;
 
 exports[`JSelect extra test select JInput vModel 1`] = `
-<div class="j_select">
-  <div class="j_input"><input type="text" readonly="readonly" placeholder="请选择" class="j_input_inner j_input_inner_suffix"><span class="j_input_icon j_input_suffix"><i class="j-icon_down_arrow j_input_icon_gesture j_select_caret"></i></span></div>
-  <div class="j_option_menu" style="display: none;">
-    <div class="j_scrollbar">
-      <div class="j_scrollbar_wrap j_scrollbar_hidden_default j_option_menu_list_wrap">
-        <ul class="j_option_menu_list">
-          <p class="j_select_empty">无数据</p>
-        </ul>
-      </div>
-      <div class="j_scrollbar_bar j_scrollbar_bar_horizontal">
-        <div class="j_scroll_bar_thumb"></div>
-      </div>
-      <div class="j_scrollbar_bar j_scrollbar_bar_vertical">
-        <div class="j_scroll_bar_thumb"></div>
-      </div>
-    </div>
-  </div>
-</div>
+VueWrapper {
+  "_emitted": Object {},
+  "_emittedByOrder": Array [],
+  "isFunctionalComponent": undefined,
+}
 `;
 
 exports[`JSelect extra test select handleClose 1`] = `
-<div class="j_select">
-  <div class="j_input"><input type="text" readonly="readonly" placeholder="请选择" class="j_input_inner j_input_inner_suffix"><span class="j_input_icon j_input_suffix"><i class="j-icon_down_arrow j_input_icon_gesture j_select_caret"></i></span></div>
-  <div class="j_option_menu" style="display: none;">
-    <div class="j_scrollbar">
-      <div class="j_scrollbar_wrap j_scrollbar_hidden_default j_option_menu_list_wrap">
-        <ul class="j_option_menu_list">
-          <p class="j_select_empty">无数据</p>
-        </ul>
-      </div>
-      <div class="j_scrollbar_bar j_scrollbar_bar_horizontal">
-        <div class="j_scroll_bar_thumb"></div>
-      </div>
-      <div class="j_scrollbar_bar j_scrollbar_bar_vertical">
-        <div class="j_scroll_bar_thumb"></div>
-      </div>
-    </div>
-  </div>
-</div>
+VueWrapper {
+  "_emitted": Object {},
+  "_emittedByOrder": Array [],
+  "isFunctionalComponent": undefined,
+}
 `;
 
 exports[`JSelect multiple choice clearable no pass clearabel 1`] = `
-<div class="j_select">
-  <div class="j_select_tags" style="max-width: -30px;"><span class="j_tag j_tag_small">1<span class="j_tag_close"><i class="j_tag_close_fix j-icon_tag_close"></i></span></span></div>
-  <div class="j_input"><input type="text" readonly="readonly" placeholder="" class="j_input_inner j_input_inner_suffix" style="height: 0px;"><span class="j_input_icon j_input_suffix"><i class="j-icon_down_arrow j_input_icon_gesture j_select_caret"></i></span></div>
-</div>
+VueWrapper {
+  "_emitted": Object {
+    "visible-change": Array [
+      Array [
+        true,
+      ],
+      Array [
+        false,
+      ],
+    ],
+  },
+  "_emittedByOrder": Array [
+    Object {
+      "args": Array [
+        true,
+      ],
+      "name": "visible-change",
+    },
+    Object {
+      "args": Array [
+        false,
+      ],
+      "name": "visible-change",
+    },
+  ],
+  "isFunctionalComponent": undefined,
+}
 `;
 
 exports[`JSelect multiple choice clearable pass clearable 1`] = `
-<div class="j_select">
-  <div class="j_select_tags" style="max-width: -30px;"><span class="j_tag j_tag_small">1<span class="j_tag_close"><i class="j_tag_close_fix j-icon_tag_close"></i></span></span></div>
-  <div class="j_input"><input type="text" readonly="readonly" placeholder="" class="j_input_inner j_input_inner_suffix" style="height: 0px;"><span class="j_input_icon j_input_suffix"><i class="j-icon_tag_close j_input_icon_gesture"></i></span></div>
-</div>
+VueWrapper {
+  "_emitted": Object {
+    "change": Array [
+      Array [
+        Array [],
+      ],
+    ],
+    "clear": Array [
+      Array [],
+    ],
+    "input": Array [
+      Array [
+        Array [],
+      ],
+    ],
+  },
+  "_emittedByOrder": Array [
+    Object {
+      "args": Array [
+        Array [],
+      ],
+      "name": "input",
+    },
+    Object {
+      "args": Array [
+        Array [],
+      ],
+      "name": "change",
+    },
+    Object {
+      "args": Array [],
+      "name": "clear",
+    },
+  ],
+  "isFunctionalComponent": undefined,
+}
 `;
 
 exports[`JSelect multiple choice clearable pass clearable and showClose is false 1`] = `
-<div class="j_select">
-  <div class="j_select_tags" style="max-width: -30px;"><span class="j_tag j_tag_small">1</span></div>
-  <div class="j_input is_focus"><input type="text" disabled="disabled" readonly="readonly" placeholder="" class="j_input_inner j_input_inner_suffix" style="height: 0px;"><span class="j_input_icon j_input_suffix"><i class="j-icon_down_arrow j_select_reverse j_input_icon_gesture j_select_caret"></i></span></div>
-</div>
+VueWrapper {
+  "_emitted": Object {
+    "visible-change": Array [
+      Array [
+        true,
+      ],
+    ],
+  },
+  "_emittedByOrder": Array [
+    Object {
+      "args": Array [
+        true,
+      ],
+      "name": "visible-change",
+    },
+  ],
+  "isFunctionalComponent": undefined,
+}
 `;
 
 exports[`JSelect multiple choice create create and have default value 1`] = `
-<div class="j_select">
-  <div class="j_select_tags" style="max-width: -30px;"><span class="j_tag j_tag_small">1<span class="j_tag_close"><i class="j_tag_close_fix j-icon_tag_close"></i></span></span><span class="j_tag j_tag_small">2<span class="j_tag_close"><i class="j_tag_close_fix j-icon_tag_close"></i></span></span></div>
-  <div class="j_input"><input type="text" readonly="readonly" placeholder="" class="j_input_inner j_input_inner_suffix" style="height: 0px;"><span class="j_input_icon j_input_suffix"><i class="j-icon_down_arrow j_input_icon_gesture j_select_caret"></i></span></div>
-</div>
+VueWrapper {
+  "_emitted": Object {},
+  "_emittedByOrder": Array [],
+  "isFunctionalComponent": undefined,
+}
 `;
 
 exports[`JSelect multiple choice create create and no have default value 1`] = `
-<div class="j_select">
-  <div class="j_select_tags" style="max-width: -30px;"></div>
-  <div class="j_input"><input type="text" readonly="readonly" placeholder="请选择" class="j_input_inner j_input_inner_suffix"><span class="j_input_icon j_input_suffix"><i class="j-icon_down_arrow j_input_icon_gesture j_select_caret"></i></span></div>
-  <div class="j_option_menu" style="display: none;">
-    <div class="j_scrollbar">
-      <div class="j_scrollbar_wrap j_scrollbar_hidden_default j_option_menu_list_wrap">
-        <ul class="j_option_menu_list">
-          <li class="j_option_menu_list_item">1</li>
-          <li class="j_option_menu_list_item">2</li>
-          <li class="j_option_menu_list_item">3</li>
-          <p class="j_select_empty">无数据</p>
-        </ul>
-      </div>
-      <div class="j_scrollbar_bar j_scrollbar_bar_horizontal">
-        <div class="j_scroll_bar_thumb"></div>
-      </div>
-      <div class="j_scrollbar_bar j_scrollbar_bar_vertical">
-        <div class="j_scroll_bar_thumb"></div>
-      </div>
-    </div>
-  </div>
-</div>
+VueWrapper {
+  "_emitted": Object {},
+  "_emittedByOrder": Array [],
+  "isFunctionalComponent": undefined,
+}
 `;
 
 exports[`JSelect multiple choice create create and value is string 1`] = `
-<div class="j_select">
-  <div class="j_select_tags" style="max-width: -30px;"></div>
-  <div class="j_input"><input type="text" readonly="readonly" placeholder="请选择" class="j_input_inner j_input_inner_suffix"><span class="j_input_icon j_input_suffix"><i class="j-icon_down_arrow j_input_icon_gesture j_select_caret"></i></span></div>
-  <div class="j_option_menu" style="display: none;">
-    <div class="j_scrollbar">
-      <div class="j_scrollbar_wrap j_scrollbar_hidden_default j_option_menu_list_wrap">
-        <ul class="j_option_menu_list">
-          <p class="j_select_empty">无数据</p>
-        </ul>
-      </div>
-      <div class="j_scrollbar_bar j_scrollbar_bar_horizontal">
-        <div class="j_scroll_bar_thumb"></div>
-      </div>
-      <div class="j_scrollbar_bar j_scrollbar_bar_vertical">
-        <div class="j_scroll_bar_thumb"></div>
-      </div>
-    </div>
-  </div>
-</div>
+VueWrapper {
+  "_emitted": Object {},
+  "_emittedByOrder": Array [],
+  "isFunctionalComponent": undefined,
+}
 `;
 
 exports[`JSelect multiple choice delete tag event delete tag event 1`] = `
-<div class="j_select">
-  <div class="j_select_tags" style="max-width: -30px;"></div>
-  <div class="j_input"><input type="text" readonly="readonly" placeholder="请选择" class="j_input_inner j_input_inner_suffix" style="height: 0px;"><span class="j_input_icon j_input_suffix"><i class="j-icon_down_arrow j_input_icon_gesture j_select_caret"></i></span></div>
-</div>
+VueWrapper {
+  "_emitted": Object {},
+  "_emittedByOrder": Array [],
+  "isFunctionalComponent": undefined,
+}
 `;
 
 exports[`JSelect multiple choice filterable pass filterable 1`] = `
-<div class="j_select">
-  <div class="j_select_tags" style="max-width: -30px;"><input class="j_select_tags_input" style="max-width: -30px; width: 0.01%;"></div>
-  <div class="j_input"><input type="text" readonly="readonly" placeholder="请选择" class="j_input_inner j_input_inner_suffix"><span class="j_input_icon j_input_suffix"><i class="j-icon_down_arrow j_input_icon_gesture j_select_caret"></i></span></div>
-  <div class="j_option_menu" style="display: none;">
-    <div class="j_scrollbar">
-      <div class="j_scrollbar_wrap j_scrollbar_hidden_default j_option_menu_list_wrap">
-        <ul class="j_option_menu_list">
-          <p class="j_select_empty">无数据</p>
-        </ul>
-      </div>
-      <div class="j_scrollbar_bar j_scrollbar_bar_horizontal">
-        <div class="j_scroll_bar_thumb"></div>
-      </div>
-      <div class="j_scrollbar_bar j_scrollbar_bar_vertical">
-        <div class="j_scroll_bar_thumb"></div>
-      </div>
-    </div>
-  </div>
-</div>
+VueWrapper {
+  "_emitted": Object {},
+  "_emittedByOrder": Array [],
+  "isFunctionalComponent": undefined,
+}
 `;
 
 exports[`JSelect multiple choice filterable queryElement blur event 1`] = `
-<div class="j_select">
-  <div class="j_select_tags" style="max-width: -30px;"><input class="j_select_tags_input" style="max-width: -30px; width: 0.01%;"></div>
-  <div class="j_input"><input type="text" readonly="readonly" placeholder="请选择" class="j_input_inner j_input_inner_suffix" style="height: 0px;"><span class="j_input_icon j_input_suffix"><i class="j-icon_down_arrow j_input_icon_gesture j_select_caret"></i></span></div>
-</div>
+VueWrapper {
+  "_emitted": Object {
+    "blur": Array [
+      Array [
+        FocusEvent {
+          "isTrusted": false,
+        },
+      ],
+    ],
+  },
+  "_emittedByOrder": Array [
+    Object {
+      "args": Array [
+        FocusEvent {
+          "isTrusted": false,
+        },
+      ],
+      "name": "blur",
+    },
+  ],
+  "isFunctionalComponent": undefined,
+}
 `;
 
 exports[`JSelect multiple choice filterable queryElement focus event 1`] = `
-<div class="j_select">
-  <div class="j_select_tags" style="max-width: -30px;"><input class="j_select_tags_input" style="max-width: -30px; width: 0.01%;"></div>
-  <div class="j_input"><input type="text" readonly="readonly" placeholder="请选择" class="j_input_inner j_input_inner_suffix" style="height: 0px;"><span class="j_input_icon j_input_suffix"><i class="j-icon_down_arrow j_input_icon_gesture j_select_caret"></i></span></div>
-</div>
+VueWrapper {
+  "_emitted": Object {
+    "focus": Array [
+      Array [
+        FocusEvent {
+          "isTrusted": true,
+        },
+      ],
+    ],
+  },
+  "_emittedByOrder": Array [
+    Object {
+      "args": Array [
+        FocusEvent {
+          "isTrusted": true,
+        },
+      ],
+      "name": "focus",
+    },
+  ],
+  "isFunctionalComponent": undefined,
+}
 `;
 
 exports[`JSelect multiple choice filterable queryElement input event 1`] = `
-<div class="j_select">
-  <div class="j_select_tags" style="max-width: -30px;"><input class="j_select_tags_input" style="max-width: -30px; width: 0.01%;"></div>
-  <div class="j_input is_focus"><input type="text" readonly="readonly" placeholder="请选择" class="j_input_inner j_input_inner_suffix" style="height: 0px;"><span class="j_input_icon j_input_suffix"><i class="j-icon_down_arrow j_select_reverse j_input_icon_gesture j_select_caret"></i></span></div>
-</div>
+VueWrapper {
+  "_emitted": Object {
+    "focus": Array [
+      Array [
+        FocusEvent {
+          "isTrusted": true,
+        },
+      ],
+    ],
+    "visible-change": Array [
+      Array [
+        true,
+      ],
+    ],
+  },
+  "_emittedByOrder": Array [
+    Object {
+      "args": Array [
+        FocusEvent {
+          "isTrusted": true,
+        },
+      ],
+      "name": "focus",
+    },
+    Object {
+      "args": Array [
+        true,
+      ],
+      "name": "visible-change",
+    },
+  ],
+  "isFunctionalComponent": undefined,
+}
 `;
 
 exports[`JSelect multiple choice filterable queryElement keyup event 1`] = `
-<div class="j_select">
-  <div class="j_select_tags" style="max-width: -30px;"><input class="j_select_tags_input" style="max-width: -30px; width: 0.01%;"></div>
-  <div class="j_input"><input type="text" readonly="readonly" placeholder="请选择" class="j_input_inner j_input_inner_suffix" style="height: 0px;"><span class="j_input_icon j_input_suffix"><i class="j-icon_down_arrow j_input_icon_gesture j_select_caret"></i></span></div>
-</div>
+VueWrapper {
+  "_emitted": Object {},
+  "_emittedByOrder": Array [],
+  "isFunctionalComponent": undefined,
+}
 `;
 
 exports[`JSelect multiple choice option select event option select event 1`] = `
-<div class="j_select">
-  <div class="j_select_tags" style="max-width: -30px;"><span class="j_tag j_tag_small">1<span class="j_tag_close"><i class="j_tag_close_fix j-icon_tag_close"></i></span></span><input class="j_select_tags_input" style="max-width: -30px; width: 0.01%;"></div>
-  <div class="j_input"><input type="text" readonly="readonly" placeholder="" class="j_input_inner j_input_inner_suffix" style="height: 0px;"><span class="j_input_icon j_input_suffix"><i class="j-icon_down_arrow j_input_icon_gesture j_select_caret"></i></span></div>
-</div>
+VueWrapper {
+  "_emitted": Object {},
+  "_emittedByOrder": Array [],
+  "isFunctionalComponent": undefined,
+}
 `;
 
 exports[`JSelect multiple choice placeholder no pass placeholder 1`] = `
-<div class="j_select">
-  <div class="j_select_tags" style="max-width: -30px;"></div>
-  <div class="j_input"><input type="text" readonly="readonly" placeholder="请选择" class="j_input_inner j_input_inner_suffix" style="height: 0px;"><span class="j_input_icon j_input_suffix"><i class="j-icon_down_arrow j_input_icon_gesture j_select_caret"></i></span></div>
-</div>
+VueWrapper {
+  "_emitted": Object {},
+  "_emittedByOrder": Array [],
+  "isFunctionalComponent": undefined,
+}
 `;
 
 exports[`JSelect multiple choice placeholder pass placeholder 1`] = `
-<div class="j_select">
-  <div class="j_select_tags" style="max-width: -30px;"></div>
-  <div class="j_input"><input type="text" readonly="readonly" placeholder="请选择选项" class="j_input_inner j_input_inner_suffix" style="height: 0px;"><span class="j_input_icon j_input_suffix"><i class="j-icon_down_arrow j_input_icon_gesture j_select_caret"></i></span></div>
-</div>
+VueWrapper {
+  "_emitted": Object {},
+  "_emittedByOrder": Array [],
+  "isFunctionalComponent": undefined,
+}
 `;
 
 exports[`JSelect multiple choice placeholder placeholder change 1`] = `
-<div class="j_select">
-  <div class="j_select_tags" style="max-width: -30px;"></div>
-  <div class="j_input"><input type="text" readonly="readonly" placeholder="请准确选择选项" class="j_input_inner j_input_inner_suffix" style="height: 0px;"><span class="j_input_icon j_input_suffix"><i class="j-icon_down_arrow j_input_icon_gesture j_select_caret"></i></span></div>
-</div>
+VueWrapper {
+  "_emitted": Object {},
+  "_emittedByOrder": Array [],
+  "isFunctionalComponent": undefined,
+}
 `;
 
-exports[`JSelect multiple choice size large size 1`] = `<input class="j_select_tags_input j_select_tags_input_large" style="max-width: -30px; width: 0.01%;">`;
+exports[`JSelect multiple choice size large size 1`] = `
+Wrapper {
+  "selector": ".j_select_tags_input",
+}
+`;
 
-exports[`JSelect multiple choice size small size 1`] = `<input class="j_select_tags_input j_select_tags_input_small" style="max-width: -30px; width: 0.01%;">`;
+exports[`JSelect multiple choice size small size 1`] = `
+Wrapper {
+  "selector": ".j_select_tags_input",
+}
+`;
 
 exports[`JSelect multiple choice value pass  value 1`] = `
-<div class="j_select">
-  <div class="j_select_tags" style="max-width: -30px;"></div>
-  <div class="j_input"><input type="text" readonly="readonly" placeholder="请选择" class="j_input_inner j_input_inner_suffix" style="height: 0px;"><span class="j_input_icon j_input_suffix"><i class="j-icon_down_arrow j_input_icon_gesture j_select_caret"></i></span></div>
-</div>
+VueWrapper {
+  "_emitted": Object {},
+  "_emittedByOrder": Array [],
+  "isFunctionalComponent": undefined,
+}
 `;
 
 exports[`JSelect remote and remoteMethod no pass remote and remoteMethod 1`] = `
-<div class="j_select">
-  <div class="j_input"><input type="text" readonly="readonly" placeholder="请选择" class="j_input_inner j_input_inner_suffix"><span class="j_input_icon j_input_suffix"><i class="j-icon_down_arrow j_input_icon_gesture j_select_caret"></i></span></div>
-  <div class="j_option_menu" style="display: none;">
-    <div class="j_scrollbar">
-      <div class="j_scrollbar_wrap j_scrollbar_hidden_default j_option_menu_list_wrap">
-        <ul class="j_option_menu_list">
-          <p class="j_select_empty">无数据</p>
-        </ul>
-      </div>
-      <div class="j_scrollbar_bar j_scrollbar_bar_horizontal">
-        <div class="j_scroll_bar_thumb"></div>
-      </div>
-      <div class="j_scrollbar_bar j_scrollbar_bar_vertical">
-        <div class="j_scroll_bar_thumb"></div>
-      </div>
-    </div>
-  </div>
-</div>
+VueWrapper {
+  "_emitted": Object {},
+  "_emittedByOrder": Array [],
+  "isFunctionalComponent": undefined,
+}
 `;
 
 exports[`JSelect remote and remoteMethod pass remote and remoteMethod 1`] = `
-<div class="j_select">
-  <div class="j_input is_focus"><input type="text" placeholder="1" class="j_input_inner j_input_inner_suffix"><span class="j_input_icon j_input_suffix"><i class="j-icon_down_arrow j_select_reverse j_input_icon_gesture j_select_caret"></i></span></div>
-</div>
+VueWrapper {
+  "_emitted": Object {
+    "focus": Array [
+      Array [
+        FocusEvent {
+          "isTrusted": true,
+        },
+      ],
+      Array [
+        FocusEvent {
+          "isTrusted": true,
+        },
+      ],
+    ],
+    "visible-change": Array [
+      Array [
+        true,
+      ],
+      Array [
+        false,
+      ],
+      Array [
+        true,
+      ],
+    ],
+  },
+  "_emittedByOrder": Array [
+    Object {
+      "args": Array [
+        FocusEvent {
+          "isTrusted": true,
+        },
+      ],
+      "name": "focus",
+    },
+    Object {
+      "args": Array [
+        true,
+      ],
+      "name": "visible-change",
+    },
+    Object {
+      "args": Array [
+        false,
+      ],
+      "name": "visible-change",
+    },
+    Object {
+      "args": Array [
+        FocusEvent {
+          "isTrusted": true,
+        },
+      ],
+      "name": "focus",
+    },
+    Object {
+      "args": Array [
+        true,
+      ],
+      "name": "visible-change",
+    },
+  ],
+  "isFunctionalComponent": undefined,
+}
 `;
 
 exports[`JSelect single choice clearable click close element 1`] = `
-<div class="j_select">
-  <div class="j_input"><input type="text" readonly="readonly" placeholder="请选择" class="j_input_inner j_input_inner_suffix"><span class="j_input_icon j_input_suffix"><i class="j-icon_down_arrow j_input_icon_gesture j_select_caret"></i></span></div>
-  <div class="j_option_menu" style="display: none;">
-    <div class="j_scrollbar">
-      <div class="j_scrollbar_wrap j_scrollbar_hidden_default j_option_menu_list_wrap">
-        <ul class="j_option_menu_list">
-          <li class="j_option_menu_list_item j_option_menu_list_item_hover">1</li>
-          <li class="j_option_menu_list_item">2</li>
-        </ul>
-      </div>
-      <div class="j_scrollbar_bar j_scrollbar_bar_horizontal">
-        <div class="j_scroll_bar_thumb"></div>
-      </div>
-      <div class="j_scrollbar_bar j_scrollbar_bar_vertical">
-        <div class="j_scroll_bar_thumb"></div>
-      </div>
-    </div>
-  </div>
-</div>
+VueWrapper {
+  "_emitted": Object {},
+  "_emittedByOrder": Array [],
+  "isFunctionalComponent": undefined,
+}
 `;
 
 exports[`JSelect single choice clearable no pass clearabel 1`] = `
-<div class="j_select">
-  <div class="j_input"><input type="text" readonly="readonly" placeholder="请选择" class="j_input_inner j_input_inner_suffix"><span class="j_input_icon j_input_suffix"><i class="j-icon_down_arrow j_input_icon_gesture j_select_caret"></i></span></div>
-</div>
+VueWrapper {
+  "_emitted": Object {
+    "visible-change": Array [
+      Array [
+        true,
+      ],
+      Array [
+        false,
+      ],
+    ],
+  },
+  "_emittedByOrder": Array [
+    Object {
+      "args": Array [
+        true,
+      ],
+      "name": "visible-change",
+    },
+    Object {
+      "args": Array [
+        false,
+      ],
+      "name": "visible-change",
+    },
+  ],
+  "isFunctionalComponent": undefined,
+}
 `;
 
 exports[`JSelect single choice clearable pass clearable 1`] = `
-<div class="j_select">
-  <div class="j_input"><input type="text" readonly="readonly" placeholder="请选择" class="j_input_inner j_input_inner_suffix"><span class="j_input_icon j_input_suffix"><i class="j-icon_tag_close j_input_icon_gesture"></i></span></div>
-  <div class="j_option_menu" style="display: none;">
-    <div class="j_scrollbar">
-      <div class="j_scrollbar_wrap j_scrollbar_hidden_default j_option_menu_list_wrap">
-        <ul class="j_option_menu_list">
-          <p class="j_select_empty">无数据</p>
-        </ul>
-      </div>
-      <div class="j_scrollbar_bar j_scrollbar_bar_horizontal">
-        <div class="j_scroll_bar_thumb"></div>
-      </div>
-      <div class="j_scrollbar_bar j_scrollbar_bar_vertical">
-        <div class="j_scroll_bar_thumb"></div>
-      </div>
-    </div>
-  </div>
-</div>
+VueWrapper {
+  "_emitted": Object {},
+  "_emittedByOrder": Array [],
+  "isFunctionalComponent": undefined,
+}
 `;
 
 exports[`JSelect single choice clearable pass clearable and showClose is false 1`] = `
-<div class="j_select">
-  <div class="j_input is_focus"><input type="text" disabled="disabled" readonly="readonly" placeholder="请选择" class="j_input_inner j_input_inner_suffix"><span class="j_input_icon j_input_suffix"><i class="j-icon_down_arrow j_select_reverse j_input_icon_gesture j_select_caret"></i></span></div>
-</div>
+VueWrapper {
+  "_emitted": Object {
+    "visible-change": Array [
+      Array [
+        true,
+      ],
+    ],
+  },
+  "_emittedByOrder": Array [
+    Object {
+      "args": Array [
+        true,
+      ],
+      "name": "visible-change",
+    },
+  ],
+  "isFunctionalComponent": undefined,
+}
 `;
 
 exports[`JSelect single choice create blur event 1`] = `
-<div class="j_select">
-  <div class="j_input"><input type="text" readonly="readonly" placeholder="请选择" class="j_input_inner j_input_inner_suffix"><span class="j_input_icon j_input_suffix"><i class="j-icon_down_arrow j_input_icon_gesture j_select_caret"></i></span></div>
-  <div class="j_option_menu" style="display: none;">
-    <div class="j_scrollbar">
-      <div class="j_scrollbar_wrap j_scrollbar_hidden_default j_option_menu_list_wrap">
-        <ul class="j_option_menu_list">
-          <p class="j_select_empty">无数据</p>
-        </ul>
-      </div>
-      <div class="j_scrollbar_bar j_scrollbar_bar_horizontal">
-        <div class="j_scroll_bar_thumb"></div>
-      </div>
-      <div class="j_scrollbar_bar j_scrollbar_bar_vertical">
-        <div class="j_scroll_bar_thumb"></div>
-      </div>
-    </div>
-  </div>
-</div>
+VueWrapper {
+  "_emitted": Object {
+    "blur": Array [
+      Array [
+        FocusEvent {
+          "isTrusted": false,
+        },
+      ],
+    ],
+  },
+  "_emittedByOrder": Array [
+    Object {
+      "args": Array [
+        FocusEvent {
+          "isTrusted": false,
+        },
+      ],
+      "name": "blur",
+    },
+  ],
+  "isFunctionalComponent": undefined,
+}
 `;
 
 exports[`JSelect single choice create create 1`] = `
-<div class="j_select">
-  <div class="j_input"><input type="text" readonly="readonly" placeholder="请选择" class="j_input_inner j_input_inner_suffix"><span class="j_input_icon j_input_suffix"><i class="j-icon_down_arrow j_input_icon_gesture j_select_caret"></i></span></div>
-  <div class="j_option_menu" style="display: none;">
-    <div class="j_scrollbar">
-      <div class="j_scrollbar_wrap j_scrollbar_hidden_default j_option_menu_list_wrap">
-        <ul class="j_option_menu_list">
-          <li class="j_option_menu_list_item">1</li>
-          <li class="j_option_menu_list_item">2</li>
-        </ul>
-      </div>
-      <div class="j_scrollbar_bar j_scrollbar_bar_horizontal">
-        <div class="j_scroll_bar_thumb"></div>
-      </div>
-      <div class="j_scrollbar_bar j_scrollbar_bar_vertical">
-        <div class="j_scroll_bar_thumb"></div>
-      </div>
-    </div>
-  </div>
-</div>
+VueWrapper {
+  "_emitted": Object {},
+  "_emittedByOrder": Array [],
+  "isFunctionalComponent": undefined,
+}
 `;
 
 exports[`JSelect single choice create focus event 1`] = `
-<div class="j_select">
-  <div class="j_input"><input type="text" readonly="readonly" placeholder="请选择" class="j_input_inner j_input_inner_suffix"><span class="j_input_icon j_input_suffix"><i class="j-icon_down_arrow j_input_icon_gesture j_select_caret"></i></span></div>
-  <div class="j_option_menu" style="display: none;">
-    <div class="j_scrollbar">
-      <div class="j_scrollbar_wrap j_scrollbar_hidden_default j_option_menu_list_wrap">
-        <ul class="j_option_menu_list">
-          <p class="j_select_empty">无数据</p>
-        </ul>
-      </div>
-      <div class="j_scrollbar_bar j_scrollbar_bar_horizontal">
-        <div class="j_scroll_bar_thumb"></div>
-      </div>
-      <div class="j_scrollbar_bar j_scrollbar_bar_vertical">
-        <div class="j_scroll_bar_thumb"></div>
-      </div>
-    </div>
-  </div>
-</div>
+VueWrapper {
+  "_emitted": Object {
+    "focus": Array [
+      Array [
+        FocusEvent {
+          "isTrusted": true,
+        },
+      ],
+    ],
+  },
+  "_emittedByOrder": Array [
+    Object {
+      "args": Array [
+        FocusEvent {
+          "isTrusted": true,
+        },
+      ],
+      "name": "focus",
+    },
+  ],
+  "isFunctionalComponent": undefined,
+}
 `;
 
 exports[`JSelect single choice create option select event option select event 1`] = `
-<div class="j_select">
-  <div class="j_input"><input type="text" placeholder="2" class="j_input_inner j_input_inner_suffix" readonly="readonly"><span class="j_input_icon j_input_suffix"><i class="j-icon_down_arrow j_input_icon_gesture j_select_caret"></i></span></div>
-</div>
+VueWrapper {
+  "_emitted": Object {},
+  "_emittedByOrder": Array [],
+  "isFunctionalComponent": undefined,
+}
 `;
 
 exports[`JSelect single choice create scopedSlots prefix 1`] = `
-<div class="j_select">
-  <div class="j_input"><input type="text" readonly="readonly" placeholder="请选择" class="j_input_inner j_input_inner_prefix j_input_inner_suffix"><span class="j_input_icon j_input_prefix"><i>prefix</i></span><span class="j_input_icon j_input_suffix"><i class="j-icon_down_arrow j_input_icon_gesture j_select_caret"></i></span></div>
-  <div class="j_option_menu" style="display: none;">
-    <div class="j_scrollbar">
-      <div class="j_scrollbar_wrap j_scrollbar_hidden_default j_option_menu_list_wrap">
-        <ul class="j_option_menu_list">
-          <p class="j_select_empty">无数据</p>
-        </ul>
-      </div>
-      <div class="j_scrollbar_bar j_scrollbar_bar_horizontal">
-        <div class="j_scroll_bar_thumb"></div>
-      </div>
-      <div class="j_scrollbar_bar j_scrollbar_bar_vertical">
-        <div class="j_scroll_bar_thumb"></div>
-      </div>
-    </div>
-  </div>
-</div>
+VueWrapper {
+  "_emitted": Object {},
+  "_emittedByOrder": Array [],
+  "isFunctionalComponent": undefined,
+}
 `;
 
 exports[`JSelect single choice create scopedSlots suffix 1`] = `
-<div class="j_select">
-  <div class="j_input"><input type="text" readonly="readonly" placeholder="请选择" class="j_input_inner j_input_inner_suffix"><span class="j_input_icon j_input_suffix"><i>suffix</i></span></div>
-  <div class="j_option_menu" style="display: none;">
-    <div class="j_scrollbar">
-      <div class="j_scrollbar_wrap j_scrollbar_hidden_default j_option_menu_list_wrap">
-        <ul class="j_option_menu_list">
-          <p class="j_select_empty">无数据</p>
-        </ul>
-      </div>
-      <div class="j_scrollbar_bar j_scrollbar_bar_horizontal">
-        <div class="j_scroll_bar_thumb"></div>
-      </div>
-      <div class="j_scrollbar_bar j_scrollbar_bar_vertical">
-        <div class="j_scroll_bar_thumb"></div>
-      </div>
-    </div>
-  </div>
-</div>
+VueWrapper {
+  "_emitted": Object {},
+  "_emittedByOrder": Array [],
+  "isFunctionalComponent": undefined,
+}
 `;
 
 exports[`JSelect single choice disabled no pass disabled 1`] = `
-<div class="j_select">
-  <div class="j_input"><input type="text" readonly="readonly" placeholder="请选择" class="j_input_inner j_input_inner_suffix"><span class="j_input_icon j_input_suffix"><i class="j-icon_down_arrow j_input_icon_gesture j_select_caret"></i></span></div>
-  <div class="j_option_menu" style="display: none;">
-    <div class="j_scrollbar">
-      <div class="j_scrollbar_wrap j_scrollbar_hidden_default j_option_menu_list_wrap">
-        <ul class="j_option_menu_list">
-          <p class="j_select_empty">无数据</p>
-        </ul>
-      </div>
-      <div class="j_scrollbar_bar j_scrollbar_bar_horizontal">
-        <div class="j_scroll_bar_thumb"></div>
-      </div>
-      <div class="j_scrollbar_bar j_scrollbar_bar_vertical">
-        <div class="j_scroll_bar_thumb"></div>
-      </div>
-    </div>
-  </div>
-</div>
+VueWrapper {
+  "_emitted": Object {
+    "focus": Array [
+      Array [
+        FocusEvent {
+          "isTrusted": true,
+        },
+      ],
+    ],
+  },
+  "_emittedByOrder": Array [
+    Object {
+      "args": Array [
+        FocusEvent {
+          "isTrusted": true,
+        },
+      ],
+      "name": "focus",
+    },
+  ],
+  "isFunctionalComponent": undefined,
+}
 `;
 
 exports[`JSelect single choice disabled pass disabled 1`] = `
-<div class="j_select">
-  <div class="j_input"><input type="text" disabled="disabled" readonly="readonly" placeholder="请选择" class="j_input_inner j_input_inner_suffix"><span class="j_input_icon j_input_suffix"><i class="j-icon_down_arrow j_input_icon_gesture j_select_caret"></i></span></div>
-  <div class="j_option_menu" style="display: none;">
-    <div class="j_scrollbar">
-      <div class="j_scrollbar_wrap j_scrollbar_hidden_default j_option_menu_list_wrap">
-        <ul class="j_option_menu_list">
-          <p class="j_select_empty">无数据</p>
-        </ul>
-      </div>
-      <div class="j_scrollbar_bar j_scrollbar_bar_horizontal">
-        <div class="j_scroll_bar_thumb"></div>
-      </div>
-      <div class="j_scrollbar_bar j_scrollbar_bar_vertical">
-        <div class="j_scroll_bar_thumb"></div>
-      </div>
-    </div>
-  </div>
-</div>
+VueWrapper {
+  "_emitted": Object {},
+  "_emittedByOrder": Array [],
+  "isFunctionalComponent": undefined,
+}
 `;
 
 exports[`JSelect single choice filterable keyup event 1`] = `
-<div class="j_select">
-  <div class="j_input"><input type="text" placeholder="1" class="j_input_inner j_input_inner_suffix" readonly="readonly"><span class="j_input_icon j_input_suffix"><i class="j-icon_down_arrow j_input_icon_gesture j_select_caret"></i></span></div>
-</div>
+VueWrapper {
+  "_emitted": Object {
+    "focus": Array [
+      Array [
+        FocusEvent {
+          "isTrusted": true,
+        },
+      ],
+    ],
+    "visible-change": Array [
+      Array [
+        true,
+      ],
+      Array [
+        false,
+      ],
+    ],
+  },
+  "_emittedByOrder": Array [
+    Object {
+      "args": Array [
+        FocusEvent {
+          "isTrusted": true,
+        },
+      ],
+      "name": "focus",
+    },
+    Object {
+      "args": Array [
+        true,
+      ],
+      "name": "visible-change",
+    },
+    Object {
+      "args": Array [
+        false,
+      ],
+      "name": "visible-change",
+    },
+  ],
+  "isFunctionalComponent": undefined,
+}
 `;
 
 exports[`JSelect single choice filterable keyup event query equal selectedLabel 1`] = `
-<div class="j_select">
-  <div class="j_input"><input type="text" placeholder="请选择" class="j_input_inner j_input_inner_suffix" readonly="readonly"><span class="j_input_icon j_input_suffix"><i class="j-icon_down_arrow j_input_icon_gesture j_select_caret"></i></span></div>
-</div>
+VueWrapper {
+  "_emitted": Object {
+    "focus": Array [
+      Array [
+        FocusEvent {
+          "isTrusted": true,
+        },
+      ],
+    ],
+    "visible-change": Array [
+      Array [
+        true,
+      ],
+      Array [
+        false,
+      ],
+    ],
+  },
+  "_emittedByOrder": Array [
+    Object {
+      "args": Array [
+        FocusEvent {
+          "isTrusted": true,
+        },
+      ],
+      "name": "focus",
+    },
+    Object {
+      "args": Array [
+        true,
+      ],
+      "name": "visible-change",
+    },
+    Object {
+      "args": Array [
+        false,
+      ],
+      "name": "visible-change",
+    },
+  ],
+  "isFunctionalComponent": undefined,
+}
 `;
 
 exports[`JSelect single choice filterable no pass filterable 1`] = `
-<div class="j_select">
-  <div class="j_input is_focus"><input type="text" readonly="readonly" placeholder="请选择" class="j_input_inner j_input_inner_suffix"><span class="j_input_icon j_input_suffix"><i class="j-icon_down_arrow j_select_reverse j_input_icon_gesture j_select_caret"></i></span></div>
-</div>
+VueWrapper {
+  "_emitted": Object {
+    "visible-change": Array [
+      Array [
+        true,
+      ],
+    ],
+  },
+  "_emittedByOrder": Array [
+    Object {
+      "args": Array [
+        true,
+      ],
+      "name": "visible-change",
+    },
+  ],
+  "isFunctionalComponent": undefined,
+}
 `;
 
 exports[`JSelect single choice filterable pass filterable 1`] = `
-<div class="j_select">
-  <div class="j_input is_focus"><input type="text" placeholder="1" class="j_input_inner j_input_inner_suffix"><span class="j_input_icon j_input_suffix"><i class="j-icon_down_arrow j_select_reverse j_input_icon_gesture j_select_caret"></i></span></div>
-</div>
+VueWrapper {
+  "_emitted": Object {
+    "visible-change": Array [
+      Array [
+        true,
+      ],
+    ],
+  },
+  "_emittedByOrder": Array [
+    Object {
+      "args": Array [
+        true,
+      ],
+      "name": "visible-change",
+    },
+  ],
+  "isFunctionalComponent": undefined,
+}
 `;
 
 exports[`JSelect single choice placeholder no pass placeholder 1`] = `
-<div class="j_select">
-  <div class="j_input"><input type="text" readonly="readonly" placeholder="请选择" class="j_input_inner j_input_inner_suffix"><span class="j_input_icon j_input_suffix"><i class="j-icon_down_arrow j_input_icon_gesture j_select_caret"></i></span></div>
-  <div class="j_option_menu" style="display: none;">
-    <div class="j_scrollbar">
-      <div class="j_scrollbar_wrap j_scrollbar_hidden_default j_option_menu_list_wrap">
-        <ul class="j_option_menu_list">
-          <p class="j_select_empty">无数据</p>
-        </ul>
-      </div>
-      <div class="j_scrollbar_bar j_scrollbar_bar_horizontal">
-        <div class="j_scroll_bar_thumb"></div>
-      </div>
-      <div class="j_scrollbar_bar j_scrollbar_bar_vertical">
-        <div class="j_scroll_bar_thumb"></div>
-      </div>
-    </div>
-  </div>
-</div>
+VueWrapper {
+  "_emitted": Object {},
+  "_emittedByOrder": Array [],
+  "isFunctionalComponent": undefined,
+}
 `;
 
 exports[`JSelect single choice placeholder pass placeholder 1`] = `
-<div class="j_select">
-  <div class="j_input"><input type="text" readonly="readonly" placeholder="请选择选项" class="j_input_inner j_input_inner_suffix"><span class="j_input_icon j_input_suffix"><i class="j-icon_down_arrow j_input_icon_gesture j_select_caret"></i></span></div>
-  <div class="j_option_menu" style="display: none;">
-    <div class="j_scrollbar">
-      <div class="j_scrollbar_wrap j_scrollbar_hidden_default j_option_menu_list_wrap">
-        <ul class="j_option_menu_list">
-          <p class="j_select_empty">无数据</p>
-        </ul>
-      </div>
-      <div class="j_scrollbar_bar j_scrollbar_bar_horizontal">
-        <div class="j_scroll_bar_thumb"></div>
-      </div>
-      <div class="j_scrollbar_bar j_scrollbar_bar_vertical">
-        <div class="j_scroll_bar_thumb"></div>
-      </div>
-    </div>
-  </div>
-</div>
+VueWrapper {
+  "_emitted": Object {},
+  "_emittedByOrder": Array [],
+  "isFunctionalComponent": undefined,
+}
 `;
 
 exports[`JSelect single choice popperClass no pass popperClass 1`] = `
-<div class="j_select">
-  <div class="j_input"><input type="text" readonly="readonly" placeholder="请选择" class="j_input_inner j_input_inner_suffix"><span class="j_input_icon j_input_suffix"><i class="j-icon_down_arrow j_input_icon_gesture j_select_caret"></i></span></div>
-  <div class="j_option_menu" style="display: none;">
-    <div class="j_scrollbar">
-      <div class="j_scrollbar_wrap j_scrollbar_hidden_default j_option_menu_list_wrap">
-        <ul class="j_option_menu_list">
-          <p class="j_select_empty">无数据</p>
-        </ul>
-      </div>
-      <div class="j_scrollbar_bar j_scrollbar_bar_horizontal">
-        <div class="j_scroll_bar_thumb"></div>
-      </div>
-      <div class="j_scrollbar_bar j_scrollbar_bar_vertical">
-        <div class="j_scroll_bar_thumb"></div>
-      </div>
-    </div>
-  </div>
-</div>
+VueWrapper {
+  "_emitted": Object {},
+  "_emittedByOrder": Array [],
+  "isFunctionalComponent": undefined,
+}
 `;
 
 exports[`JSelect single choice popperClass pass popperClass 1`] = `
-<div class="j_select">
-  <div class="j_input"><input type="text" readonly="readonly" placeholder="请选择" class="j_input_inner j_input_inner_suffix"><span class="j_input_icon j_input_suffix"><i class="j-icon_down_arrow j_input_icon_gesture j_select_caret"></i></span></div>
-  <div class="j_option_menu popper_class" style="display: none;">
-    <div class="j_scrollbar">
-      <div class="j_scrollbar_wrap j_scrollbar_hidden_default j_option_menu_list_wrap">
-        <ul class="j_option_menu_list">
-          <p class="j_select_empty">无数据</p>
-        </ul>
-      </div>
-      <div class="j_scrollbar_bar j_scrollbar_bar_horizontal">
-        <div class="j_scroll_bar_thumb"></div>
-      </div>
-      <div class="j_scrollbar_bar j_scrollbar_bar_vertical">
-        <div class="j_scroll_bar_thumb"></div>
-      </div>
-    </div>
-  </div>
-</div>
+VueWrapper {
+  "_emitted": Object {},
+  "_emittedByOrder": Array [],
+  "isFunctionalComponent": undefined,
+}
 `;
 
 exports[`JSelect single choice size large size 1`] = `
-<div class="j_select">
-  <div class="j_input"><input type="text" readonly="readonly" placeholder="请选择" class="j_input_inner j_input_inner_large j_input_inner_suffix"><span class="j_input_icon j_input_suffix"><i class="j-icon_down_arrow j_input_icon_gesture j_select_caret"></i></span></div>
-  <div class="j_option_menu" style="display: none;">
-    <div class="j_scrollbar">
-      <div class="j_scrollbar_wrap j_scrollbar_hidden_default j_option_menu_list_wrap">
-        <ul class="j_option_menu_list">
-          <p class="j_select_empty j_select_empty_large">无数据</p>
-        </ul>
-      </div>
-      <div class="j_scrollbar_bar j_scrollbar_bar_horizontal">
-        <div class="j_scroll_bar_thumb"></div>
-      </div>
-      <div class="j_scrollbar_bar j_scrollbar_bar_vertical">
-        <div class="j_scroll_bar_thumb"></div>
-      </div>
-    </div>
-  </div>
-</div>
+VueWrapper {
+  "_emitted": Object {},
+  "_emittedByOrder": Array [],
+  "isFunctionalComponent": undefined,
+}
 `;
 
 exports[`JSelect single choice size small size 1`] = `
-<div class="j_select">
-  <div class="j_input"><input type="text" readonly="readonly" placeholder="请选择" class="j_input_inner j_input_inner_small j_input_inner_suffix"><span class="j_input_icon j_input_suffix"><i class="j-icon_down_arrow j_input_icon_gesture j_select_caret"></i></span></div>
-  <div class="j_option_menu" style="display: none;">
-    <div class="j_scrollbar">
-      <div class="j_scrollbar_wrap j_scrollbar_hidden_default j_option_menu_list_wrap">
-        <ul class="j_option_menu_list">
-          <p class="j_select_empty j_select_empty_small">无数据</p>
-        </ul>
-      </div>
-      <div class="j_scrollbar_bar j_scrollbar_bar_horizontal">
-        <div class="j_scroll_bar_thumb"></div>
-      </div>
-      <div class="j_scrollbar_bar j_scrollbar_bar_vertical">
-        <div class="j_scroll_bar_thumb"></div>
-      </div>
-    </div>
-  </div>
-</div>
+VueWrapper {
+  "_emitted": Object {},
+  "_emittedByOrder": Array [],
+  "isFunctionalComponent": undefined,
+}
 `;
 
 exports[`JSelect single choice value pass  value 1`] = `
-<div class="j_select">
-  <div class="j_input"><input type="text" readonly="readonly" placeholder="请选择" class="j_input_inner j_input_inner_suffix"><span class="j_input_icon j_input_suffix"><i class="j-icon_down_arrow j_input_icon_gesture j_select_caret"></i></span></div>
-  <div class="j_option_menu" style="display: none;">
-    <div class="j_scrollbar">
-      <div class="j_scrollbar_wrap j_scrollbar_hidden_default j_option_menu_list_wrap">
-        <ul class="j_option_menu_list">
-          <li class="j_option_menu_list_item j_option_menu_list_item_selected">1</li>
-          <li class="j_option_menu_list_item">2</li>
-          <p class="j_select_empty">无数据</p>
-        </ul>
-      </div>
-      <div class="j_scrollbar_bar j_scrollbar_bar_horizontal">
-        <div class="j_scroll_bar_thumb"></div>
-      </div>
-      <div class="j_scrollbar_bar j_scrollbar_bar_vertical">
-        <div class="j_scroll_bar_thumb"></div>
-      </div>
-    </div>
-  </div>
-</div>
+VueWrapper {
+  "_emitted": Object {},
+  "_emittedByOrder": Array [],
+  "isFunctionalComponent": undefined,
+}
 `;

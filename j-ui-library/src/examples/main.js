@@ -1,11 +1,11 @@
-import Vue from 'vue'
-import App from './App.vue'
-import router from './router'
+import Vue from 'vue';
+import App from './App.vue';
+import router from './router';
 
-import '@packages/theme/index.styl'
-Vue.config.productionTip = false
+import '@packages/theme/index.styl';
 
-new Vue({
+
+new Vue( {
     router,
-    render: h => h(App)
-}).$mount('#app')
+    render: ( h ) => h( App ),
+} ).$mount( '#app' );

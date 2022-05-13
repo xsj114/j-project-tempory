@@ -1,7 +1,7 @@
-import JSelect from './src/main'
+import JSelect from './src/main';
 
-JSelect.install = function (Vue) {
-    Vue.component(JSelect.name, JSelect)
-}
+JSelect.install = function( Vue ) {
+    Vue.component( JSelect.name, JSelect );
+};
 
-export default JSelect
+export default JSelect;

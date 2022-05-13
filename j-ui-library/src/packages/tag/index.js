@@ -1,7 +1,7 @@
-import JTag from './src/main'
+import JTag from './src/main';
 
-JTag.install = function (Vue) {
-    Vue.component(JTag.name, JTag)
-}
+JTag.install = function( Vue ) {
+    Vue.component( JTag.name, JTag );
+};
 
-export default JTag
+export default JTag;

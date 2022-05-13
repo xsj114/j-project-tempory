@@ -1,9 +1,8 @@
-import JCard from './src/main'
+import JCard from './src/main';
 
-JCard.install = function (Vue) {
-    Vue.component(JCard.name, JCard)
-}
+JCard.install = function( Vue ) {
+    Vue.component( JCard.name, JCard );
+};
 
 
-
-export default JCard
+export default JCard;

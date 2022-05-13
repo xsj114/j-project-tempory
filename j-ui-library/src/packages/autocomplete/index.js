@@ -1,7 +1,7 @@
-import JAutocomplete from './src/main'
+import JAutocomplete from './src/main';
 
-JAutocomplete.install = function (Vue) {
-    Vue.component(JAutocomplete.name, JAutocomplete)
-}
+JAutocomplete.install = function( Vue ) {
+    Vue.component( JAutocomplete.name, JAutocomplete );
+};
 
-export default JAutocomplete
+export default JAutocomplete;

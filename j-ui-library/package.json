@@ -1,77 +1,68 @@
 {
-  "name": "@j-xushijie/j-ui-library",
-  "version": "1.0.0",
-  "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "build:lib": "vue-cli-service build --target lib --dest lib --name j-ui-library src/index.js",
-    "test": "vue-cli-service test:unit",
-    "test:cover": "vue-cli-service test:unit --coverage",
-    "test:auto": "vue-cli-service test:unit  --colors --expand --notify --testNamePattern=JSelect --watch",
-    "lint": "vue-cli-service lint"
-  },
-  "main": "lib/j-ui-library.common.js",
-  "dependencies": {
-    "@popperjs/core": "^2.4.4",
-    "core-js": "^3.6.5",
-    "vue": "^2.6.11",
-    "vue-router": "^3.3.4"
-  },
-  "devDependencies": {
-    "@testing-library/jest-dom": "^5.11.9",
-    "@vue/cli-plugin-babel": "^4.4.0",
-    "@vue/cli-plugin-eslint": "^4.4.0",
-    "@vue/cli-plugin-unit-jest": "~4.5.0",
-    "@vue/cli-service": "^4.4.0",
-    "@vue/test-utils": "^1.0.3",
-    "babel-eslint": "^10.1.0",
-    "eslint": "^6.7.2",
-    "eslint-plugin-vue": "^6.2.2",
-    "stylus": "^0.54.7",
-    "stylus-loader": "^3.0.2",
-    "vue-template-compiler": "^2.6.11"
-  },
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
+    "name": "webpack-vue",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "serve": "webpack serve",
+        "build": "webpack --env prod",
+        "webpack:analyse": "webpack --profile --json > stats.json",
+        "lint": "eslint --cache --fix ./",
+        "test": "jest"
     },
-    "extends": [
-      "plugin:vue/essential",
-      "eslint:recommended"
+    "sideEffects": [
+        "**/*.css",
+        "**/*.styl"
     ],
-    "parserOptions": {
-      "parser": "babel-eslint"
-    },
-    "rules": {
-      "no-debugger": "off"
-    },
-    "overrides": [
-      {
-        "files": [
-          "**/__tests__/*.{j,t}s?(x)",
-          "**/tests/unit/**/*.spec.{j,t}s?(x)"
-        ],
-        "env": {
-          "jest": true
-        }
-      }
-    ]
-  },
-  "files": [
-    "lib"
-  ],
-  "jest": {
-    "moduleFileExtensions": [
-      "js",
-      "json",
-      "vue"
+    "files": [
+        "lib"
     ],
-    "moduleNameMapper": {}
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not dead"
-  ]
+    "keywords": [],
+    "author": "xushijie",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/core": "^7.17.8",
+        "@babel/eslint-parser": "^7.17.0",
+        "@babel/plugin-transform-runtime": "^7.17.0",
+        "@babel/preset-env": "^7.16.11",
+        "@babel/runtime": "^7.17.8",
+        "@popperjs/core": "^2.4.4",
+        "@testing-library/jest-dom": "^5.16.4",
+        "@vue/babel-helper-vue-jsx-merge-props": "^1.2.1",
+        "@vue/babel-preset-jsx": "^1.2.4",
+        "@vue/test-utils": "^1.0.3",
+        "autoprefixer": "^10.4.4",
+        "axios": "^0.26.1",
+        "babel-core": "^7.0.0-bridge.0",
+        "babel-jest": "^24.9.0",
+        "babel-loader": "^8.2.4",
+        "css-loader": "^6.7.1",
+        "eslint": "^8.13.0",
+        "eslint-config-google": "^0.14.0",
+        "eslint-plugin-vue": "^8.6.0",
+        "html-webpack-plugin": "^5.3.2",
+        "jest": "^24.9.0",
+        "mini-css-extract-plugin": "^2.6.0",
+        "postcss": "^8.4.12",
+        "postcss-loader": "^6.2.1",
+        "style-loader": "^3.3.1",
+        "stylus": "^0.57.0",
+        "stylus-loader": "^6.2.0",
+        "vue": "^2.6.14",
+        "vue-jest": "^3.0.7",
+        "vue-loader": "^15.9.8",
+        "vue-router": "^3.3.4",
+        "vue-template-compiler": "^2.6.14",
+        "webpack": "^5.70.0",
+        "webpack-cli": "^4.9.2",
+        "webpack-dev-server": "^4.3.1"
+    },
+    "browserslist": [
+        "last 2 version",
+        "not dead",
+        "> 0.2%"
+    ],
+    "dependencies": {
+        "@j-xushijie/j-http-code": "^1.0.1"
+    }
 }

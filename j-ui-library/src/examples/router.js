@@ -1,60 +1,58 @@
-import Vue from 'vue'
-import Router from 'vue-router'
-import navConfig from '@examples/nav.config'
+import Vue from 'vue';
+import Router from 'vue-router';
+import navConfig from '@examples/nav.config';
 
-Vue.use(Router)
+Vue.use( Router );
 
 
-const registerRoute = (navConfig) => {
-    let routes = []
-    Object.keys(navConfig).forEach((ele, index) => {
-        let navs = navConfig[ele]
+const registerRoute = ( navConfig ) => {
+    const routes = [];
+    Object.keys( navConfig ).forEach( ( ele, index ) => {
+        const navs = navConfig[ ele ];
 
-        routes.push({
+        routes.push( {
             path: `/${ele}`,
-            redirect: `/${ele}/${navs[0].name}`,
+            redirect: `/${ele}/${navs[ 0 ].name}`,
             children: [],
-            component: () => import(`@examples/pages/${ele}`)
-        })
+            component: () => import( `@examples/pages/${ele}` ),
+        } );
 
-        navs.forEach(nav => {
-            addRoute(nav,ele,routes,index)            
-        })
-    })
+        navs.forEach( ( nav ) => {
+            addRoute( nav, ele, routes, index );
+        } );
+    } );
 
-    return routes
-}
+    return routes;
+};
 
 
-const addRoute = (page, flag, routes, index) => {
-    
-    let child = {
-        path: page.path.slice(1),
+const addRoute = ( page, flag, routes, index ) => {
+    const child = {
+        path: page.path.slice( 1 ),
         name: page.name,
         meta: {
-            flag 
+            flag,
         },
-        component: () => import(`@examples/demo/${page.name}`) 
-    }
+        component: () => import( `@examples/demo/${page.name}` ),
+    };
 
-    routes[index].children.push(child)
+    routes[ index ].children.push( child );
+};
 
-}
+let routes = registerRoute( navConfig );
 
-let routes = registerRoute(navConfig) 
+const defaultPath = '/components';
 
-let defaultPath = '/components'
-
-routes = routes.concat([{
+routes = routes.concat( [ {
     path: '/',
-    redirect: defaultPath
-},{
+    redirect: defaultPath,
+}, {
     path: '*',
-    redirect: defaultPath
-}])
+    redirect: defaultPath,
+} ] );
 
-export default new Router ({
+export default new Router( {
     mode: 'history',
-    routes 
-})
+    routes,
+} );
 

@@ -1,9 +1,9 @@
-import JOption from '../select/src/option'
+import JOption from '../select/src/option';
 
 
-JOption.install = function (Vue) {
-    Vue.component(JOption.name, JOption)
-}
+JOption.install = function( Vue ) {
+    Vue.component( JOption.name, JOption );
+};
 
 
-export default JOption
+export default JOption;

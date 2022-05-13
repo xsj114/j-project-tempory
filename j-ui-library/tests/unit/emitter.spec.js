@@ -1,148 +1,138 @@
-import { mount } from '@vue/test-utils'
-import Emitter from '@mixins/emitter'
+import { mount } from '@vue/test-utils';
+import Emitter from '@mixins/emitter';
 
 
-let ChildSecondComponent = {
-    render () {
-        return '<div>child second</div>'
+const ChildSecondComponent = {
+    render() {
+        return '<div>child second</div>';
     },
-    name: 'ChildSecondComponent'
-}
+    name: 'ChildSecondComponent',
+};
 
-const broadcastFn = jest.fn()
-const dispatchFn = jest.fn()
+const broadcastFn = jest.fn();
+const dispatchFn = jest.fn();
 
-let ChildComponent = {
-    created () {
-        this.$on('visible', broadcastFn)
+const ChildComponent = {
+    created() {
+        this.$on( 'visible', broadcastFn );
     },
-    render () {
-        return '<div>child</div>'
+    render() {
+        return '<div>child</div>';
     },
     mixins: [
-        Emitter
+        Emitter,
     ],
-    name: 'ChildComponent'
-}
+    name: 'ChildComponent',
+};
 
-let ParentComponent = {
-    created () {
-        this.$on('visible', dispatchFn)
+const ParentComponent = {
+    created() {
+        this.$on( 'visible', dispatchFn );
     },
-    render () {
+    render() {
         return (
             <div>
                 <child-component/>
                 <child-second-component/>
             </div>
-        )
+        );
     },
     mixins: [
-        Emitter
+        Emitter,
     ],
     name: 'ParentComponent',
     components: {
         ChildComponent,
-        ChildSecondComponent
-    }
-}
+        ChildSecondComponent,
+    },
+};
 
 
-describe('Emitter', () => {
-
-    describe('broadcast', () => {
-
-        test('broadcast', () => {
-
+describe( 'Emitter', () => {
+    describe( 'broadcast', () => {
+        test( 'broadcast', () => {
             const Compenent = {
-                render () {
-                    return <parent-component/>
+                render() {
+                    return <parent-component/>;
                 },
                 components: {
-                    ParentComponent
-                }
-            }
+                    ParentComponent,
+                },
+            };
 
-            const wrapper = mount(Compenent)
-            const parentWrapper = wrapper.findComponent(ParentComponent)
-            parentWrapper.vm.broadcast('ChildComponent', 'visible', [true, 2])
+            const wrapper = mount( Compenent );
+            const parentWrapper = wrapper.findComponent( ParentComponent );
+            parentWrapper.vm.broadcast( 'ChildComponent', 'visible', [ true, 2 ] );
 
-            expect(broadcastFn).toHaveBeenCalledTimes(1, [true, 2])
-        })
+            expect( broadcastFn ).toHaveBeenCalledTimes( 1, [ true, 2 ] );
+        } );
+    } );
 
-    })
 
-
-    describe('dispatch', () => {
-
-        test('dispatch', () => {
-
+    describe( 'dispatch', () => {
+        test( 'dispatch', () => {
             const Compenent = {
-                render () {
-                    return <parent-component/>
+                render() {
+                    return <parent-component/>;
                 },
                 components: {
-                    ParentComponent
-                }
-            }
+                    ParentComponent,
+                },
+            };
 
-            const wrapper = mount(Compenent)
-            const childWrapper = wrapper.findComponent(ChildComponent)
-            childWrapper.vm.dispatch('ParentComponent', 'visible', [true, 2])
+            const wrapper = mount( Compenent );
+            const childWrapper = wrapper.findComponent( ChildComponent );
+            childWrapper.vm.dispatch( 'ParentComponent', 'visible', [ true, 2 ] );
 
-            expect(dispatchFn).toHaveBeenCalledTimes(1, ['visible', true, 2])
-        })
+            expect( dispatchFn ).toHaveBeenCalledTimes( 1, [ 'visible', true, 2 ] );
+        } );
 
-        test('dispatch self', () => {
-
-            const fn = jest.fn()
+        test( 'dispatch self', () => {
+            const fn = jest.fn();
 
             const Compenent = {
-                created () {
-                    this.$on('visible', fn)
+                created() {
+                    this.$on( 'visible', fn );
                 },
-                render () {
-                    return <parent-component/>
+                render() {
+                    return <parent-component/>;
                 },
                 components: {
-                    ParentComponent
+                    ParentComponent,
                 },
                 name: 'TestComponent',
-                mixins: [ Emitter ]
-            }
-            const wrapper = mount(Compenent)
-            wrapper.vm.dispatch('TestComponent', 'visible', [true, 3])
+                mixins: [ Emitter ],
+            };
+            const wrapper = mount( Compenent );
+            wrapper.vm.dispatch( 'TestComponent', 'visible', [ true, 3 ] );
 
-            expect(fn).toHaveBeenCalledTimes(0)
+            expect( fn ).toHaveBeenCalledTimes( 0 );
+        } );
 
-        })
 
-
-        test('dispatch forebear component', () => {
-
-            const fn = jest.fn()
+        test( 'dispatch forebear component', () => {
+            const fn = jest.fn();
 
             const Compenent = {
-                created () {
-                    this.$on('visible', fn)
+                created() {
+                    this.$on( 'visible', fn );
                 },
-                render () {
-                    return <parent-component/>
+                render() {
+                    return <parent-component/>;
                 },
                 components: {
-                    ParentComponent
+                    ParentComponent,
                 },
-                name: 'TestComponent'
-            }
+                name: 'TestComponent',
+            };
 
-            const wrapper = mount(Compenent)
-            const childWrapper = wrapper.findComponent(ChildComponent)
-            childWrapper.vm.dispatch('TestComponent', 'visible', [true, 3])
+            const wrapper = mount( Compenent );
+            const childWrapper = wrapper.findComponent( ChildComponent );
+            childWrapper.vm.dispatch( 'TestComponent', 'visible', [ true, 3 ] );
 
-            expect(fn).toHaveBeenCalledTimes(1)
-            expect(fn).toHaveBeenCalledTimes(1, ['visible', true, 3])
-        })
-
-    })
-})
+            expect( fn ).toHaveBeenCalledTimes( 1 );
+            expect( fn ).toHaveBeenCalledTimes( 1, [ 'visible', true, 3 ] );
+        } );
+    } );
+} );
 

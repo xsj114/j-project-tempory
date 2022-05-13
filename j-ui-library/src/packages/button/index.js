@@ -1,7 +1,7 @@
-import JButton from './src/main'
+import JButton from './src/main';
 
-JButton.install = function (Vue) {
-    Vue.component(JButton.name, JButton)
-}
+JButton.install = function( Vue ) {
+    Vue.component( JButton.name, JButton );
+};
 
-export default JButton
+export default JButton;
