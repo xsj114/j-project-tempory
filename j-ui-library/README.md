@@ -1,6 +1,6 @@
 [toc]
 
-# j-ui-library
+# @j-xushijie/j-ui-library
 
 ## Introduction
 
@@ -9,22 +9,22 @@ A vue ui component library
 ## Install
 
 ```
-    npm i j-ui-library
+npm i @j-xushijie/j-ui-library
 ```
 
 ## Import
 
 ```
-    import Vue from 'vue';
-    import JUI from 'j-ui-library'
-    import 'j-ui-library/lib/j-ui-library.css'
-    
-    Vue.use(JUI)
-    
-    new Vue({
-      el: '#app',
-      render: h => h(App)
-    });
+import Vue from 'vue';
+import JUI from 'j-ui-library'
+import 'j-ui-library/lib/j-ui-library.css'
+
+Vue.use(JUI)
+
+new Vue({
+  el: '#app',
+  render: h => h(App)
+});
 ```
 
 ## Components

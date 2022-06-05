@@ -6,7 +6,7 @@ module.exports = () => {
     const plugins = [
         new VueLoaderPlugin(),
         new MiniCssExtractPlugin( {
-            filename: 'css/[name].[contenthash].css',
+            filename: 'index.css',
         } ),
     ];
 
