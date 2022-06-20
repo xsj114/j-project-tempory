@@ -1938,7 +1938,6 @@ cottage      茅屋
 cotton       棉花
 counsel      法律顾问
 courage      勇气
-court        法庭
 cousin       表姐
 crack        裂纹
 crazy        疯
@@ -3086,3 +3085,5 @@ preamble     前言
 pitch        音调,野营
 seek         寻求
 aggressive   气势汹汹
+court        法庭
+courtesy     礼貌
