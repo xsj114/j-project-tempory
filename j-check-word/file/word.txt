@@ -3087,3 +3087,7 @@ seek         寻求
 aggressive   气势汹汹
 court        法庭
 courtesy     礼貌
+inadvertent  非故意的
+heinous      滔天
+assault      突击
+freedom      自由,直率
