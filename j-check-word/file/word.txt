@@ -351,6 +351,8 @@ reset        重置
 recent       最近
 integer      整数
 reach        到达
+preach       讲道,传教
+breach       突破口,缺口
 upper        上
 limit        限
 attempt      尝试
@@ -1132,7 +1134,6 @@ readability  可读性
 fat          胖
 arrow        箭头
 reflect      反映,体现
-equation     方程
 cut          切
 amount       等于,合计
 fit          适合
@@ -1496,7 +1497,6 @@ misspell     拼写错误
 strong       强大
 significant  重大,重要
 compromise   妥协,折中
-breach       突破口,缺口
 malicious    恶毒,凶狠
 actor        演员,艺人
 enter        输入,进入
@@ -1627,7 +1627,6 @@ former       前,原先
 whichever    任何
 speak        说话
 audience     听众
-adoption     采用
 rate         速率,速度
 paper        纸,论文
 supersede    取而代之
@@ -1879,7 +1878,6 @@ catalog      目录
 cave         洞穴
 cease        停止
 century      世纪,百年
-central      中央
 chairman     主席
 champion     冠军
 charge       收费
@@ -2063,7 +2061,6 @@ evidence     证据,表明
 finance      金融
 evident      明显,显然
 evil         邪恶
-evolve       发展
 exam         考试
 faculty      学院
 exceed       超过
@@ -2167,7 +2164,6 @@ lane         车道
 laser        激光
 laugh        嘲笑
 laundry      洗衣店
-lawn         草坪
 lawsuit      诉讼
 lawyer       律师
 leaf         叶子
@@ -2186,7 +2182,6 @@ lion         狮子
 loan         贷款
 lobby        前厅
 lone         孤单
-loose        疏松
 loss         损失
 loud         高声
 loyal        忠诚
@@ -2318,7 +2313,6 @@ pound        英镑
 poverty      贫穷
 powder       粉末
 pray         祈祷
-preach       讲道,传教
 pregnant     怀孕的
 premise      前提
 premium      奖金,独特的
@@ -2499,7 +2493,6 @@ vanity       虚荣
 vapour       烟雾
 unfold       展开,滩开
 vase         花瓶
-vast         辽阔,丰富
 vehicle      车辆,运输
 veil         面纱
 vein         静脉
@@ -2541,7 +2534,6 @@ wage         工资
 wagon        车皮
 wet          湿
 whip         鞭打,鞭
-waste        浪费
 whirl        旋转
 wreath       花圈,花环
 wreck        破坏
@@ -2720,7 +2712,6 @@ study        研究
 fast         快速
 hash         复述,搞糟
 diverge      偏离
-adequate     充足
 hatch        镶嵌
 held         保持
 grind        研磨
@@ -2787,7 +2778,7 @@ dial         拨号
 overwhelm    压倒
 apparent     明显的
 weed         野草
-legitimate   合法
+legit        合法的
 convince     说服
 complain     抱怨
 aesthetic    审美的
@@ -3091,3 +3082,31 @@ inadvertent  非故意的
 heinous      滔天
 assault      突击
 freedom      自由,直率
+archives     档案
+corrupt      腐败
+compartment  包房
+compartmentalize   划分
+encompass    环绕,拥有
+tailor       裁缝
+adequate     充足
+equation     方程
+lawn         草坪
+law          法律
+gigantic     巨大
+unveil       暴露
+vast         辽阔,丰富
+leeway       余地
+waste        浪费
+defend       防守,保卫
+soon         不久,最近
+loose        疏松
+suffer       遭受
+flaw         缺陷
+evolve       发展
+rinse        冲洗
+pave         铺平
+accommodate  容纳
+brew         酿造
+component    部件,组成的
+central      中央
+incubate     孵蛋,酝酿
