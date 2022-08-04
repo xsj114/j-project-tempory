@@ -45,7 +45,5 @@
         "not dead",
         "> 0.2%"
     ],
-    "dependencies": {
-        "@j-xushijie/j-http-code": "^1.0.1"
-    }
+    "packageManager": "yarn@3.2.2"
 }

@@ -1,6 +1,6 @@
 import axios from 'axios';
-import HttpCode from '@j-xushijie/j-http-code';
-const code = new HttpCode()
+// import HttpCode from '@j-xushijie/j-http-code';
+// const code = new HttpCode()
 
 const instance = axios.create( {
     timeout: 50000,
